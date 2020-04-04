@@ -1,0 +1,39 @@
+{
+  "name": "oply-content-engine",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Content Engine",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.19.5",
+    "strapi-admin": "3.0.0-beta.19.5",
+    "strapi-utils": "3.0.0-beta.19.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.5",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-plugin-email": "3.0.0-beta.19.5",
+    "strapi-plugin-upload": "3.0.0-beta.19.5",
+    "strapi-connector-bookshelf": "3.0.0-beta.19.5",
+    "knex": "<0.20.0",
+    "pg": "latest",
+    "dotenv": "^6.2.0",
+    "find-config": "^1.0.0"
+  },
+  "author": {
+    "name": "Ruud Erie"
+  },
+  "strapi": {
+    "uuid": "14bf4fe7-af64-4202-949a-505d0ce85d73"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
